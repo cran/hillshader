@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/pierreroudier/hillshader/workflows/R-CMD-check/badge.svg)](https://github.com/pierreroudier/hillshader/actions)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/hillshader)](https://CRAN.R-project.org/package=hillshader)
+[![Total\_Downloads](http://cranlogs.r-pkg.org/badges/grand-total/hillshader)](https://cran.r-project.org/package=hillshader)
 <!-- badges: end -->
 
 The `hillshader` package is a wrapper around the `rayshader` and
@@ -16,8 +17,14 @@ write them to (spatial) files.
 
 ## Installation
 
-You can install the development version of hillshader with the `remotes`
-package:
+The stable version of `hillshader` can be installed from CRAN:
+
+``` r
+install.packages("hillshader")
+```
+
+Alternatively, if you feel brave, you can install the development
+version of `hillshader` with the `remotes` package:
 
 ``` r
 remotes::install_github("pierreroudier/hillshader")
@@ -188,3 +195,10 @@ el_mat %>%
     filename = "hillshade.tif"
   )
 ```
+
+## Code of Conduct
+
+Please note that the hillshader project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

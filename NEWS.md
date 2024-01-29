@@ -1,5 +1,13 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# hillshader 0.1.1
+
+- Fixed stripes/tiling artefacts in the `maungawhau_hr` dataset (Issue https://github.com/pierreroudier/hillshader/issues/1)
+- Added examples
+
+
+# hillshader 0.1.0.9000
+
 # hillshader 0.1.0
 
 - Added `hillshader` wrapper function
